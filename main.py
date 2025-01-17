@@ -17,7 +17,7 @@ print(carrier.name_for_number(service_provider, "en"))
 
 # Getting Latitude and Longitude Coordinates
 from opencage.geocoder import OpenCageGeocode
-key = '6da942e534b446cd807ad83926f2f83f'
+key = 'Enter the Open Cage Data API key here'
 geocoder = OpenCageGeocode(key)
 query = str(location)
 results = geocoder.geocode(query)
